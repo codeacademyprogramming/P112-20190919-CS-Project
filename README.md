@@ -25,5 +25,16 @@ Application-da modellər aşağıdakı kimi olmalıdır:
   - Name
   - Price
   - EntryQuantity
-
+- Payment
+  - CustomerId
+  - PackageId
+  - CreatedAt (DateTime)
+  - Price
+- MenuItem
+  - Name
+  - Price
+- MenuOrder
+  - CustomerId
+  - MenuItemId
+  - Quantity
  
